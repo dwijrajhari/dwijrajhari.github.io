@@ -1,0 +1,24 @@
+title: Dwij Raj Hari
+tagline: Software engineer @ Stripe · Bengaluru
+description: Personal site of Dwij Raj Hari.
+email: dwijrajhari@gmail.com
+url: https://dwijrajhari.me
+baseurl: ""
+lang: en
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - Dockerfile
+  - docker-compose.yml
+  - vendor
+  - node_modules
+  - .git
+  - .gitignore
